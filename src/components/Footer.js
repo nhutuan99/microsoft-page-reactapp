@@ -1,10 +1,10 @@
-import React, {useState}from 'react'
+import React, {useState} from 'react'
 import data from '../data/footer'
 import { FaGlobe } from 'react-icons/fa'
 
 const Footer = () => {
 
-    const [links, setLinks] = useState(data);
+    const [links] = useState(data);
 
     return (
        <>
@@ -15,7 +15,7 @@ const Footer = () => {
                 return (
                     <div key={id}>
                         <div className="mb-10">
-                            <h4 className="font-semibold text-gray-600">{title}</h4>
+                            <h4 className="font-semisolid text-gray-600">{title}</h4>
                             {hrefs.map((href) => {
                                return <li key={hrefs} className="text-gray-600 text-sm my-2"> {href}</li>
                             })}

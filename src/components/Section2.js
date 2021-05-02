@@ -3,7 +3,7 @@ import data from '../data/section2'
 
 const Section2 = () => {
 
-    const [cards, setCards] = useState(data)
+    const [cards] = useState(data)
 
     return (
         <section className="section-2 md:grid grid-cols-2 xl:grid grid-cols-4 xl:mx-20">

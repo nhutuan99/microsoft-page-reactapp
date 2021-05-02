@@ -4,7 +4,7 @@ import data from '../data/section1'
 
 const ChooseYourMS = () => {
     
-    const [cards, setCards] = useState(data);
+    const [cards] = useState(data);
     
     return (
         <section className="md:grid grid-cols-2 xl:grid grid-cols-6 my-8 xl:mx-20">

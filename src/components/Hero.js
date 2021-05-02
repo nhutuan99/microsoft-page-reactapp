@@ -1,5 +1,5 @@
 import React from 'react'
-import showCase from '../images/hero_539.png'
+import showCase from '../images/homepage/hero_539.png'
 // import {FaChevronRight} from 'react-icons/fa'
 
 

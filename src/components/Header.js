@@ -1,6 +1,7 @@
 import React from 'react'
-import Logo from '../images/logo.png'
+import Logo from '../images/homepage/logo.png'
 import {FaBars, FaSearch, FaShoppingCart, FaUserPlus} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -21,7 +22,9 @@ const Header = () => {
                 </div>
 
                 <ul>
-                    <li className="hover:opacity-70">Microsoft 365</li>
+                    <li className="hover:opacity-70">
+                        <Link to="/microsoft-365">Microsoft 365</Link>
+                    </li>
                     <li className="hover:opacity-70">Office</li>
                     <li className="hover:opacity-70">Windows</li>
                     <li className="hover:opacity-70">Surface</li>

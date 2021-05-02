@@ -1,5 +1,5 @@
 import React from 'react'
-import showImg from '../images/game_pass_539.png'
+import showImg from '../images/homepage/game_pass_539.png'
 
 const GamePass = () => {
     return (
